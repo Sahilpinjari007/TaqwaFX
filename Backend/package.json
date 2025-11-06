@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon --env-file=.env index.js",
-    "postinstall": "cd ../Frontend && npm install && npm run build && cp -r dist ../Backend/dist"
+    "postinstall": "cd ../Client && npm install && npm run build && cp -r dist ../Backend/dist"
   },
   "dependencies": {
     "axios": "^1.13.2",
