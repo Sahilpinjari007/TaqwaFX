@@ -6,6 +6,7 @@ import {
 } from "../utils/validations.js";
 import { useCreateInvestor } from "../hooks/appHook.js";
 import { useState, useEffect } from "react";
+import toast from "react-hot-toast";
 
 const CreateInvestor = ({ refetch }) => {
   const [showCreatInvestorModel, setShowCreatInvestorModel] = useState(false);
