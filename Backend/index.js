@@ -42,7 +42,7 @@ app.use("/api/v1/plan", planRouter);
 app.use("/api/v1/investment", investmentRouter);
 
 // ---- Serve React (Vite build) ----
-const clientDistPath = path.join(__dirname, "../client/dist");
+const clientDistPath = path.join(__dirname, "../Client/dist");
 
 if (fs.existsSync(clientDistPath)) {
   // Serve static files from Vite's dist folder
